@@ -1,3 +1,1 @@
-# My-Chrome
-
-cotaek's chrome page!!
+## Cotaek2's Chrome PAGE!
