@@ -1,0 +1,77 @@
+.hidden {
+  display: none;
+}
+
+#clockDiv {
+  display: flex;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  transform: translate(-1%, -1%);
+  color: white; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  font-size: 3em;
+}
+
+#lfDiv{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  transform: translate(-1%, -10%);
+  color: white; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  font-size: 1em;
+}
+
+#login-form {
+  color: white; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+}
+
+#login-form input {
+  color: black; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#login-form input[type="submit"] {
+  color: white; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#tfDiv{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  transform: translate(-1%, -20%);
+  color: white; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  font-size: 20px;
+}
+
+#quote{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#weather{
+  display: flex;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  color: black; /* 글씨 색상을 흰색으로 설정 */
+  font-family: 'BMHANNAPro', sans-serif; /* 글씨체 설정 */
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
